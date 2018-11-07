@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "path": "./", 
+      "folder_exclude_patterns": [], 
+      "file_exclude_patterns": []
+    }
+  ], 
+  "settings": {}, 
+  "build_systems": [
+  	{
+  		"name": "Flow",
+  		"shell_cmd": "flow-remove-types --out-dir dst/ src/",
+		"working_dir": "${project_path}"	
+  	}
+  ]
+}
